@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-storage.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyA7wU6EZyqREMv4ci2M36AItk1k9ybYVh4",
+    authDomain: "busi-hacks.firebaseapp.com",
+    projectId: "busi-hacks",
+    storageBucket: "busi-hacks.appspot.com",
+    messagingSenderId: "259171892440",
+    appId: "1:259171892440:web:d7da8d414230b44d5dabad"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+<link
+href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
+rel="stylesheet"
+/>
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+crossorigin="anonymous"
+/>
+<link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div id="firstDiv">
+        <button id="signInWithGoogleBtn"><i id="googleIcon" class="fab fa-google"></i>Sign In With Google</button>
+    </div>
+</body>
+<script src="login.js" defer></script>
+</html>

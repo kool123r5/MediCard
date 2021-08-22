@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+#signInWithGoogleBtn{
+    border-radius: 10px;
+    width: 400px;
+    height: 100px;
+    background-color: #18191c;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    border: none;
+    position: relative;
+    top: 300px;
+    left: 600px;
+}
+
+#signInWithGoogleBtn:hover{
+    background-color: #DB4437;
+    cursor: pointer;
+    color: #1e1e1e;
+}
+
+#googleIcon{
+    padding: 15px;
+    position: relative;
+    font-size: 50px;
+}

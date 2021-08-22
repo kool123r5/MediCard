@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://images.hdqwalls.com/download/anime-cityscape-landscape-scenery-5k-r6-2048x1152.jpg");
+    background-repeat: no-repeat;
+    
+    }
+
+    .info{
+        width: 1000px;
+    }
+
+
+    .topnav {
+    overflow: hidden;
+    background-color: transparent;
+    height: 100px;
+    }
+
+    .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 40px;
+    }
+
+    .topnav a:hover {
+    background-color: #42b9f5;
+    color: black;
+    }
+
+    .topnav a.active {
+    color: white;
+    }
+
+    h1{
+        color: white;
+    }
+
+    h3{
+        color: #dbd7d7;
+    }
+
+    .logo{
+    float: left;
+    }
+
+    .nav{
+    position: absolute;
+    left: 1100px;
+    top: 10px;
+    }
+
+    .info{
+        margin: 20px;
+    }
+
+

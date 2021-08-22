@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Report</title>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-storage.js"></script>
+     <script src="medicalReport.js" defer></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyA7wU6EZyqREMv4ci2M36AItk1k9ybYVh4",
+    authDomain: "busi-hacks.firebaseapp.com",
+    projectId: "busi-hacks",
+    storageBucket: "busi-hacks.appspot.com",
+    messagingSenderId: "259171892440",
+    appId: "1:259171892440:web:d7da8d414230b44d5dabad"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+<link rel="stylesheet" href="medicalReport.css">
+</head>
+<body>
+  <nav>
+    <div class="topnav">
+        <img src="logo.png" alt="logo" class = "logo">
+        <div class = "nav">
+        <a href="index.html">Home</a>
+        <a href="card.html">View Card</a>
+        <a href="editingCard.html">Edit Card</a>
+        <a href="login.html">Sign in</a>
+        </div>
+    </div>
+</nav>
+    <div id="generalInfo">
+       <h1 id="generalInfoTitle">General Information</h1>
+       <h3 id="nameGeneralInfo">Name: </h3>
+       <h3 id="emailGeneralInfo">Email: </h3>
+       <h3 id="phoneGeneralInfo">Phone Number: </h3>
+       <h3 id="dobGeneralInfo">Date of Birth: </h3>
+       <h3 id="residencyGeneralInfo">Residency: </h3>
+       <h3 id="backupPhoneGeneralInfo">Backup Phone Number: </h3>
+       <h3 id="faceGeneralInfo">Picture: <img id="faceGeneralInfoPic" src="" height="75" width="75"> </h3>
+   </div>
+   <div id="importantInfo">
+       <h1 id="importantInfoTitle">Important Information</h1>
+       <h3 id="importantInfoContent"></h3>
+   </div>
+   <div id="files">
+       <h1 id="filesTitle">Files</h1>
+   </div>
+</body>
+<script src="medicalReport.js" defer></script>
+</html>

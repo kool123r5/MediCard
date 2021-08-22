@@ -1,0 +1,10 @@
+html {
+	background: rgb(219, 244, 255);
+	background: linear-gradient(
+		90deg,
+		rgba(219, 244, 255, 1) 0%,
+		rgba(171, 219, 255, 1) 35%,
+		rgba(157, 239, 255, 1) 100%
+	);
+	overflow-x: hidden;
+}

@@ -1,0 +1,58 @@
+#exampleInputEmail1{
+    width:500px;
+}
+
+#exampleInputPhone1{
+    width: 500px;
+}
+
+#exampleInputHelpPhone1{
+    width: 500px;
+}
+
+#exampleInputName1{
+    width: 500px;
+}
+
+#exampleInputDOB1{
+    width: 500px;
+}
+
+#exampleInputImportantInformation1{
+    width: 500px;
+}
+
+#exampleInputResidency1{
+    width: 500px;
+}
+
+#newInputBtn{
+    width: 100px;
+    height: 50px;
+    border: none;
+    font-size: small;
+    color: rgb(0, 4, 255);
+}
+
+#labelUpload{
+    width: 100px;
+    height: 50px;
+    border: none;
+    font-size: small;
+    color: rgb(0, 4, 255);
+    margin-left: 10px;
+}
+
+#labelUploadPic{
+    width: 100px;
+    height: 50px;
+    border: none;
+    font-size: small;
+    color: rgb(0, 4, 255);
+    margin-left: 10px;
+}
+
+.professional{
+    margin: 0 auto; 
+    width: 550px;
+}

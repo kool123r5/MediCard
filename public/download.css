@@ -1,0 +1,165 @@
+@import 'https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css';
+a:link {
+	text-decoration: none;
+}
+.vn-red a {
+	background-color: #e74c3c;
+	display: inline-block;
+	position: relative;
+	margin: 30px 5px;
+	padding: 20px 20px 20px 80px;
+	color: #fff;
+	transition: all 0.4s ease;
+}
+
+.vn-red a:before {
+	content: '\f019';
+	font-family: fontAwesome;
+	position: absolute;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: inherit;
+	font-size: 28px;
+	border-radius: 0 20px 0 0;
+	color: #000;
+	background-color: #fff;
+	opacity: 0.3;
+	padding: 20px;
+	top: 0;
+	left: 0;
+}
+
+.vn-red a:hover {
+	background: #2c3e50;
+}
+
+.vn-green a {
+	background-color: #27ae60;
+	display: inline-block;
+	position: relative;
+	margin: 30px 5px;
+	padding: 20px 20px 20px 80px;
+	color: #fff;
+	transition: all 0.4s ease;
+}
+
+.vn-green a:before {
+	content: '\f019';
+	font-family: fontAwesome;
+	position: absolute;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: inherit;
+	font-size: 28px;
+	border-radius: 0 20px 0 0;
+	color: #000;
+	background-color: #fff;
+	opacity: 0.3;
+	padding: 20px;
+	top: 0;
+	left: 0;
+}
+
+.vn-green a:hover {
+	background: #2c3e50;
+}
+
+.vn-teal a {
+	background-color: #16a085;
+	display: inline-block;
+	position: relative;
+	margin: 30px 5px;
+	padding: 20px 20px 20px 80px;
+	color: #fff;
+	transition: all 0.4s ease;
+}
+
+.vn-teal a:before {
+	content: '\f019';
+	font-family: fontAwesome;
+	position: absolute;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: inherit;
+	font-size: 28px;
+	border-radius: 0 20px 0 0;
+	color: #000;
+	background-color: #fff;
+	opacity: 0.3;
+	padding: 20px;
+	top: 0;
+	left: 0;
+}
+
+.vn-teal a:hover {
+	background: #2c3e50;
+}
+
+.vn-orange a {
+	background-color: #f39c12;
+	display: inline-block;
+	position: relative;
+	margin: 30px 5px;
+	padding: 20px 20px 20px 80px;
+	color: #fff;
+	transition: all 0.4s ease;
+}
+
+.vn-orange a:before {
+	content: '\f019';
+	font-family: fontAwesome;
+	position: absolute;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: inherit;
+	font-size: 28px;
+	border-radius: 0 20px 0 0;
+	color: #000;
+	background-color: #fff;
+	opacity: 0.3;
+	padding: 20px;
+	top: 0;
+	left: 0;
+}
+
+.vn-orange a:hover {
+	background: #2c3e50;
+}
+
+.vn-blue {
+	position: relative;
+	height: 100;
+	top: -6%;
+	left: 8%;
+}
+
+.vn-blue a {
+	background-color: #2980b9;
+	display: inline-block;
+	position: relative;
+	margin: 30px 5px;
+	padding: 20px 20px 20px 80px;
+	color: #fff;
+	transition: all 0.4s ease;
+}
+
+.vn-blue a:before {
+	content: '\f019';
+	font-family: fontAwesome;
+	position: absolute;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: inherit;
+	font-size: 28px;
+	border-radius: 0 20px 0 0;
+	color: #000;
+
+	opacity: 0.3;
+	padding: 20px;
+	top: 0;
+	left: 0;
+}
+
+.vn-blue a:hover {
+	background: #425d79;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make your card</title>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-storage.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyA7wU6EZyqREMv4ci2M36AItk1k9ybYVh4",
+    authDomain: "busi-hacks.firebaseapp.com",
+    projectId: "busi-hacks",
+    storageBucket: "busi-hacks.appspot.com",
+    messagingSenderId: "259171892440",
+    appId: "1:259171892440:web:d7da8d414230b44d5dabad"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+<link rel="stylesheet" href="makingCard.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+<body>
+    <div class="professional">
+    <form id="form">
+        <h2>General Information <label id="labelUploadPic" for="uploadPic">Upload an Image of you</label><input hidden id="uploadPic" type="file" value="Upload an Image of you"></h2>
+        <div id="facePicture"></div>
+        <div class="mb-3">
+            <label for="exampleInputName1" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="exampleInputName1">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputResidency1" class="form-label">Residency</label>
+            <input type="text" class="form-control" id="exampleInputResidency1">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPhone1" class="form-label">Phone Number</label>
+          <input type="text" class="form-control" id="exampleInputPhone1">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputHelpPhone1" class="form-label">Backup Phone Number (trusted contact)</label>
+            <input type="text" class="form-control" id="exampleInputHelpPhone1">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputDOB1" class="form-label">Date of Birth</label>
+            <input type="date" class="form-control" id="exampleInputDOB1">
+        </div>
+        <h2>Medical reports / Prescriptions <button id="newInputBtn">Add new input</button><label id="labelUpload" for="uploadInput">Attach a file</label><input hidden id="uploadInput" type="file" value="Attach a File"></h2> 
+        <div class="mb-3">
+            <label for="exampleInputImportantInformation1" class="form-label">Important Information (allergies, vaccines, prescriptions, past hospital visits)</label>
+            <input type="text" class="form-control exampleInputImportantInformation1" id="exampleInputImportantInformation1">
+        </div>
+    </form>
+    <div id="textDiv"></div>
+    <button type="submit" id="submitButton" class="btn btn-primary">Submit</button>
+</div>
+</body>
+<script src="makingCard.js" defer></script>
+</html>
